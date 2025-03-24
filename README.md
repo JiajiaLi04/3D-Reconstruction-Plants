@@ -94,7 +94,7 @@ Coming Soon...
 
 ## 3. 🗂️ Taxonomy
 
-In our paper, we divide the textual instructions into four categories.
+In our paper, we divide the textual instructions into three categories.
 
 ### 3.1 Classical Methods
 1. Wang, Yinghua, Songtao Hu, He Ren, Wanneng Yang, and Ruifang Zhai. "3DPhenoMVS: A low-cost 3D tomato phenotyping pipeline using 3D reconstruction point cloud based on multiview images." Agronomy 12, no. 8 (2022): 1865.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C25&q=3DPhenoMVS%3A+A+low-cost+3D+tomato+phenotyping+pipeline+using+3D+reconstruction+point+cloud+based+on+multiview+images&btnG=)  [[Paper]](https://www.mdpi.com/2073-4395/12/8/1865)

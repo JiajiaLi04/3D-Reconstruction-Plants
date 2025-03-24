@@ -66,9 +66,9 @@ Coming Soon...
   - [3.2 Neural radiance fields](#32-neural-radiance-fields)
   - [3.3 3D Gaussian splitting](#33-3d-gaussian-splitting)
 - [4. 🤖 Applications](#4--applications)
-  - [4.1 Applications Classical Methods](#31-applications-classical-methods)
-  - [4.2 Applications Neural radiance fields](#32-applications-neural-radiance-fields)
-  - [4.3 Applications 3D Gaussian splitting](#33-applications-3d-gaussian-splitting)
+  - [4.1 Applications Classical Methods](#41-applications-classical-methods)
+  - [4.2 Applications Neural radiance fields](#42-applications-neural-radiance-fields)
+  - [4.3 Applications 3D Gaussian splitting](#43-applications-3d-gaussian-splitting)
 
 ## 1. 💁🏽‍♀️ Introduction
 3D reconstruction in Plant Phenotyping? How many methods we included:

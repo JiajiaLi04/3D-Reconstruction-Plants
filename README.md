@@ -6,11 +6,9 @@
 
 ![](https://img.shields.io/github/last-commit/JiajiaLi04/Agriculture-Foundation-Models?color=#00FA9A) ![](https://img.shields.io/badge/PaperNumber-39-blue) ![](https://img.shields.io/badge/PRs-Welcome-red) 
 
-A curated list of awesome **Large Language and Foundation Models in Agriculture** papers 🔥🔥🔥. 
+A curated list of awesome **3D Reconstruction in Plant Phenotyping** papers 🔥🔥🔥. 
 
-Currently maintained by <ins>[Jiajia Li](xx) @ MSU</ins>. 
-
-
+Currently maintained by <ins>[Jiajia Li](https://sites.google.com/view/lijiajia) @ MSU</ins>. 
 
 **<font color='red'>Work still in progress</font>**  🚀, **we appreciate any suggestions and contributions** ❤️.
 
@@ -33,7 +31,7 @@ We aim to stay up-to-date with the most innovative developments in the field and
 <!-- omit in toc -->
 ## How to contribute?
 
-If you have any suggestions or find any missed papers, feel free to reach out or submit a [pull request](https://github.com/JiajiaLi04/Agriculture-Foundation-Models/pulls):
+If you have any suggestions or find any missed papers, feel free to reach out or submit a [pull request](https://github.com/JiajiaLi04/3D-Reconstruction-Plants/pulls):
 
 1. Use following markdown format.
 
@@ -55,15 +53,7 @@ Find this repository helpful? 😊
 Please consider citing our paper. 👇👇👇
 
 ```
-@article{li2024foundation,
-  title={Foundation models in smart agriculture: Basics, opportunities, and challenges},
-  author={Li, Jiajia and Xu, Mingle and Xiang, Lirong and Chen, Dong and Zhuang, Weichao and Yin, Xunyuan and Li, Zhaojian},
-  journal={Computers and Electronics in Agriculture},
-  volume={222},
-  pages={109032},
-  year={2024},
-  publisher={Elsevier}
-}
+Coming Soon...
 ```
 
 <!-- omit in toc -->
@@ -80,19 +70,17 @@ Please consider citing our paper. 👇👇👇
 
 
 ## 1. 💁🏽‍♀️ Introduction
-Why foundation models instead of traditional deep learning models?
-- 👉 **Pre-trained Knowledge.** By training on vast and diverse datasets, FMs possess a form of "general intelligence" that encompasses knowledge of the world, language, vision, and their specific training domains.
-- 👉 **Fine-tuning Flexibility.** FMs demonstrate superior performance to be fine-tuned for particular tasks or datasets, saving the computational and temporal investments required to train extensive models from scratch.
-- 👉 **Data Efficiency.** FMs harness their foundational knowledge, exhibiting remarkable performance even in the face of limited task-specific data, which is effective for scenarios with data scarcity issues. 
+3D reconstruction in Plant Phenotyping? How many methods we included:
+- 👉 **Classical Methods.** Active methods based on depth sensors & Passive methods based on Structure from Motion (SfM).
+- 👉 **Neural radiance fields (NeRF).** A novel method for synthesizing photo-realistic views of 3D objects by learning a continuous volumetric scene representation.
+- 👉 **3D Gaussian splitting (3DGS).** An explicit method that models scenes using learnable 3D Gaussian distributions. 
 
-## 2. 🎓 Surveys and Tutorials 
-1. Moor, Michael, et al. "Foundation models for generalist medical artificial intelligence." Nature 616.7956 (2023): 259-265. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Foundation+models+for+generalist+medical+artificial+intelligence&btnG=) [[Paper]](https://www.nature.com/articles/s41586-023-05881-4)
-2. Mai, Gengchen, et al. "On the opportunities and challenges of foundation models for geospatial artificial intelligence." arXiv preprint arXiv:2304.06798 (2023). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=On+the+Opportunities+and+Challenges+of+Foundation+Models+for+Geospatial+Artificial+Intelligence&btnG=) [[Paper]](https://arxiv.org/abs/2304.06798)
-3. Stella, Francesco, Cosimo Della Santina, and Josie Hughes. "How can LLMs transform the robotic design process?." Nature Machine Intelligence (2023): 1-4.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=How+can+LLMs+transform+the+robotic+design+process&btnG=) [[Paper]](https://www.nature.com/articles/s42256-023-00669-7)
-4. Zhang, Chaoning, et al. "A Survey on Segment Anything Model (SAM): Vision Foundation Model Meets Prompt Engineering." arXiv preprint arXiv:2306.06211 (2023).  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+Survey+on+Segment+Anything+Model+SAM+Vision+Foundation+Model+Meets+Prompt+Engineering&btnG=) [[Paper]](https://arxiv.org/abs/2306.06211)
-5. Yang, Sherry, et al. "Foundation models for decision making: Problems, methods, and opportunities." arXiv preprint arXiv:2303.04129 (2023). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Foundation+Models+for+Decision+Making+Problems%2C+Methods%2C+and+Opportunities&btnG=) [[Paper]](https://arxiv.org/abs/2303.04129)
-6. Zhang, Xinsong, et al. "Toward Building General Foundation Models for Language, Vision, and Vision-Language Understanding Tasks." arXiv preprint arXiv:2301.05065 (2023).  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Toward+Building+General+Foundation+Models+for+Language%2C+Vision%2C+and+Vision-Language+Understanding+Tasks&btnG=) [[Paper]](https://arxiv.org/abs/2301.05065)
-7. Bommasani, Rishi, et al. "On the opportunities and risks of foundation models." arXiv preprint arXiv:2108.07258 (2021). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=On+the+Opportunities+and+Risks+of+Foundation+Models&btnG=) [[Paper]](https://arxiv.org/abs/2108.07258)
+## 2. 🎓 Surveys and Tutorials  [[Google Scholar]]()  [[Paper]]()
+1. Fiorani, Fabio, and Ulrich Schurr. "Future scenarios for plant phenotyping." Annual review of plant biology 64, no. 1 (2013): 267-291. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C25&q=%40article%7Bfiorani2013future%2C+++title%3D%7BFuture+scenarios+for+plant+phenotyping%7D%2C+++author%3D%7BFiorani%2C+Fabio+and+Schurr%2C+Ulrich%7D%2C+++journal%3D%7BAnnual+review+of+plant+biology%7D%2C+++volume%3D%7B64%7D%2C+++number%3D%7B1%7D%2C+++pages%3D%7B267--291%7D%2C+++year%3D%7B2013%7D%2C+++publisher%3D%7BAnnual+Reviews%7D+%7D&btnG=) [[Paper]](https://www.annualreviews.org/content/journals/10.1146/annurev-arplant-050312-120137)
+2. Li, Lei, Qin Zhang, and Danfeng Huang. "A review of imaging techniques for plant phenotyping." Sensors 14, no. 11 (2014): 20078-20111. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C25&q=%40article%7Bli2014review%2C+++title%3D%7BA+review+of+imaging+techniques+for+plant+phenotyping%7D%2C+++author%3D%7BLi%2C+Lei+and+Zhang%2C+Qin+and+Huang%2C+Danfeng%7D%2C+++journal%3D%7BSensors%7D%2C+++volume%3D%7B14%7D%2C+++number%3D%7B11%7D%2C+++pages%3D%7B20078--20111%7D%2C+++year%3D%7B2014%7D%2C+++publisher%3D%7BMDPI%7D+%7D&btnG=)  [[Paper]](https://www.mdpi.com/1424-8220/14/11/20078)
+3. Pieruschka, Roland, and Uli Schurr. "Plant phenotyping: past, present, and future." Plant Phenomics (2019).  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C25&q=%40article%7Bpieruschka2019plant%2C+++title%3D%7BPlant+phenotyping%3A+past%2C+present%2C+and+future%7D%2C+++author%3D%7BPieruschka%2C+Roland+and+Schurr%2C+Uli%7D%2C+++journal%3D%7BPlant+Phenomics%7D%2C+++year%3D%7B2019%7D%2C+++publisher%3D%7BAAAS%7D+%7D&btnG=)  [[Paper]](https://spj.science.org/doi/full/10.34133/2019/7507131)
+4. Costa, Corrado, Ulrich Schurr, Francesco Loreto, Paolo Menesatti, and Sebastien Carpentier. "Plant phenotyping research trends, a science mapping approach." Frontiers in plant science 9 (2019): 1933.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C25&q=%40article%7Bcosta2019plant%2C+++title%3D%7BPlant+phenotyping+research+trends%2C+a+science+mapping+approach%7D%2C+++author%3D%7BCosta%2C+Corrado+and+Schurr%2C+Ulrich+and+Loreto%2C+Francesco+and+Menesatti%2C+Paolo+and+Carpentier%2C+Sebastien%7D%2C+++journal%3D%7BFrontiers+in+plant+science%7D%2C+++volume%3D%7B9%7D%2C+++pages%3D%7B1933%7D%2C+++year%3D%7B2019%7D%2C+++publisher%3D%7BFrontiers+Media+SA%7D+%7D&btnG=)  [[Paper]](https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2018.01933/full)
+5. Das Choudhury, Sruti, Ashok Samal, and Tala Awada. "Leveraging image analysis for high-throughput plant phenotyping." Frontiers in plant science 10 (2019): 508. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C25&q=%40article%7Bdas2019leveraging%2C+++title%3D%7BLeveraging+image+analysis+for+high-throughput+plant+phenotyping%7D%2C+++author%3D%7BDas+Choudhury%2C+Sruti+and+Samal%2C+Ashok+and+Awada%2C+Tala%7D%2C+++journal%3D%7BFrontiers+in+plant+science%7D%2C+++volume%3D%7B10%7D%2C+++pages%3D%7B508%7D%2C+++year%3D%7B2019%7D%2C+++publisher%3D%7BFrontiers+Media+SA%7D+%7D&btnG=)  [[Paper]](https://www.frontiersin.org/articles/10.3389/fpls.2019.00508/full)
 
 ## 3. 🗂️ Taxonomy
 

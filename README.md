@@ -53,7 +53,12 @@ Find this repository helpful? 😊
 Please consider citing our paper. 👇👇👇
 
 ```
-Coming Soon...
+@article{li2025survey,
+  title={A survey on 3D reconstruction techniques in plant phenotyping: from classical methods to neural radiance fields (NeRF), 3D Gaussian splatting (3DGS), and beyond},
+  author={Li, Jiajia and Qi, Xinda and Nabaei, Seyed Hamidreza and Liu, Meiqi and Chen, Dong and Zhang, Xin and Yin, Xunyuan and Li, Zhaojian},
+  journal={arXiv preprint arXiv:2505.00737},
+  year={2025}
+}
 ```
 
 <!-- omit in toc -->

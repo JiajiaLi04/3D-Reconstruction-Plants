@@ -55,9 +55,11 @@ Please consider citing our paper. 👇👇👇
 ```
 @article{li2025survey,
   title={A survey on 3D reconstruction techniques in plant phenotyping: from classical methods to neural radiance fields (NeRF), 3D Gaussian splatting (3DGS), and beyond},
-  author={Li, Jiajia and Qi, Xinda and Nabaei, Seyed Hamidreza and Liu, Meiqi and Chen, Dong and Zhang, Xin and Yin, Xunyuan and Li, Zhaojian},
-  journal={arXiv preprint arXiv:2505.00737},
-  year={2025}
+  author={Li, Jiajia and Qi, Xinda and Nabaei, Seyed Hamidreza and Liu, Meiqi and Chen, Dong and Sun, Qi and Zhang, Xin and Yin, Xunyuan and Li, Zhaojian},
+  journal={Plant Phenomics},
+  pages={100137},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
